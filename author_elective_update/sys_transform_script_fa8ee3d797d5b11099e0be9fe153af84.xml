@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">cd5527cb9719711099e0be9fe153afc9</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	if (action == 'insert') {
+    ignore = true;
+  }
+	
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 07:18:00</sys_created_on>
+        <sys_id>fa8ee3d797d5b11099e0be9fe153af84</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_fa8ee3d797d5b11099e0be9fe153af84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 07:31:46</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e722de881b8cfd9cba5ceb9b2d4bcbb4</instance_id>
+        <instance_name>dev180119</instance_name>
+        <name>sys_transform_script_fa8ee3d797d5b11099e0be9fe153af84</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Import Historic NeedIt Data"&gt;cd5527cb9719711099e0be9fe153afc9&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	if (action == 'insert') {
+    ignore = true;
+  }
+	
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-21 07:18:00&lt;/sys_created_on&gt;&lt;sys_id&gt;fa8ee3d797d5b11099e0be9fe153af84&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_fa8ee3d797d5b11099e0be9fe153af84&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-21 07:31:46&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1718906507</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>28b31e7c9719b11099e0be9fe153af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 07:31:46</sys_created_on>
+        <sys_id>4cd1375b97d5b11099e0be9fe153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ab6a6e94d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 07:31:46</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>44d1375bc9d5b110dbd3c4fc506c6090</update_guid>
+        <update_guid_history>44d1375bc9d5b110dbd3c4fc506c6090:-1718906507,05c0f75b09d5b1106b5d03cdbc76f410:612117592,2440bf1b41d5b110438c57cfab66a0e6:1182679159,d2ae67d7b0d5b110b1717efdf6153fb0:-1891222959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 07:41:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>2e62d965ca9e47e48c3fad5cc268df10</sys_id>
+        <sys_metadata>fa8ee3d797d5b11099e0be9fe153af84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Import Historic NeedIt Data">cd5527cb9719711099e0be9fe153afc9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_fa8ee3d797d5b11099e0be9fe153af84</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_fa8ee3d797d5b11099e0be9fe153af84">4cd1375b97d5b11099e0be9fe153af90</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 07:41:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
